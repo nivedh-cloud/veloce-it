@@ -1,10 +1,14 @@
 import React, {useEffect, useState} from 'react'
+import img1 from '../../images/Gemini_Generated_Image_bxl7jhbxl7jhbxl7.png'
+import img2 from '../../images/Gemini_Generated_Image_dlgogedlgogedlgo.png'
+import img3 from '../../images/Gemini_Generated_Image_mryroomryroomryr.png'
+import img4 from '../../images/Gemini_Generated_Image_s8rucns8rucns8ru.png'
 
 const slides = [
-  { src: '/images/Gemini_Generated_Image_bxl7jhbxl7jhbxl7.png', caption: 'We provide software solutions' },
-  { src: '/images/Gemini_Generated_Image_dlgogedlgogedlgo.png', caption: 'Building your digital future' },
-  { src: '/images/Gemini_Generated_Image_mryroomryroomryr.png', caption: 'Data-driven architecture' },
-  { src: '/images/Gemini_Generated_Image_s8rucns8rucns8ru.png', caption: 'Advanced AI implementations' }
+  { src: img1, caption: 'We provide software solutions' },
+  { src: img2, caption: 'Building your digital future' },
+  { src: img3, caption: 'Data-driven architecture' },
+  { src: img4, caption: 'Advanced AI implementations' }
 ]
 
 export default function Carousel(){
