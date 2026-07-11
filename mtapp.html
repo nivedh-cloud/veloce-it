@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veloce IT Solutions | Senior UI/UX & Mobile Engineering</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .glass { 
+            background: rgba(30, 41, 59, 0.5); 
+            backdrop-filter: blur(10px); 
+            border: 1px solid rgba(255, 255, 255, 0.1); 
+        }
+        
+        /* Carousel animations */
+        @keyframes slideIn {
+            0% { transform: translateX(100%); opacity: 0; }
+            100% { transform: translateX(0); opacity: 1; }
+        }
+        .animate-slide {
+            animation: slideIn 1s ease-out forwards;
+        }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans">
+
+    <!-- Hero Section -->
+    <section class="max-w-6xl mx-auto px-6 py-4 sm:py-6 text-left">
+        <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+            <div>
+                <h1 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold mb-2 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-emerald-400">
+                    Veloce IT Solutions
+                </h1>
+                <p class="text-lg sm:text-xl text-slate-400 max-w-1xl">
+                    Expert Software Architecture & Development
+                </p>
+            </div>
+            <a href="https://nivedh-cloud.github.io/my-profile/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center rounded-full border border-blue-400/40 bg-blue-500/10 px-4 py-2 text-sm font-semibold text-blue-300 transition hover:bg-blue-500/20">
+                Developer Profile
+            </a>
+        </div>
+    </section>
+
+    <!-- Carousel Section -->
+    <section class="w-full py-0">
+        <div id="carousel" class="relative w-full h-[50svh] sm:h-[55dvh] lg:h-[60vh] overflow-hidden bg-slate-950">
+            <!-- Slide 1 -->
+            <div class="carousel-slide absolute inset-0 flex items-end justify-end transition-opacity duration-1000">
+                <img src="images/Gemini_Generated_Image_bxl7jhbxl7jhbxl7.png" alt="Programming" class="absolute inset-0 w-full h-full object-cover opacity-40">
+                <div class="relative z-10 p-6 sm:p-8 lg:p-10 max-w-2xl text-right">
+                    <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold animate-slide">We provide software solutions</h2>
+                </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="carousel-slide absolute inset-0 flex items-end justify-end transition-opacity duration-1000 opacity-0">
+                <img src="images/Gemini_Generated_Image_dlgogedlgogedlgo.png" alt="Development" class="absolute inset-0 w-full h-full object-cover opacity-40">
+                <div class="relative z-10 p-6 sm:p-8 lg:p-10 max-w-2xl text-right">
+                    <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold animate-slide">Building your digital future</h2>
+                </div>
+            </div>
+            <!-- Slide 3 -->
+            <div class="carousel-slide absolute inset-0 flex items-end justify-end transition-opacity duration-1000 opacity-0">
+                <img src="images/Gemini_Generated_Image_mryroomryroomryr.png" alt="Data" class="absolute inset-0 w-full h-full object-cover opacity-40">
+                <div class="relative z-10 p-6 sm:p-8 lg:p-10 max-w-2xl text-right">
+                    <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold animate-slide">Data-driven architecture</h2>
+                </div>
+            </div>
+            <!-- Slide 4 -->
+            <div class="carousel-slide absolute inset-0 flex items-end justify-end transition-opacity duration-1000 opacity-0">
+                <img src="images/Gemini_Generated_Image_s8rucns8rucns8ru.png" alt="AI" class="absolute inset-0 w-full h-full object-cover opacity-40">
+                <div class="relative z-10 p-6 sm:p-8 lg:p-10 max-w-2xl text-right">
+                    <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold animate-slide">Advanced AI implementations</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Highlights -->
+    <section class="max-w-6xl mx-auto py-16 px-6">
+        <h2 class="text-3xl font-bold mb-12 text-center">Portfolio Highlights</h2>
+        
+        <div class="grid md:grid-cols-3 gap-8">
+            <!-- App 1: Bible Trace Maps -->
+            <div class="glass p-4 rounded-2xl hover:scale-105 transition-transform flex flex-col">
+                <img src="https://play-lh.googleusercontent.com/VAmXRb4wBfkQX_I9_Eg_Yhkz86573LQ5G9b75-Vqq_Dn3LBy0yQc8T3q-SCUAvIXhtwPJseda5sarhYeZvDoXw=w832-h470-rw" alt="Bible Trace Maps" class="rounded-xl w-full h-48 object-cover">
+                <h3 class="mt-4 text-xl font-bold">Bible Trace Maps</h3>
+                <p class="text-slate-400 text-sm mt-2 flex-grow">Hybrid mobile app with complex mapping visualizations.</p>
+                <a href="https://play.google.com/store/apps/details?id=com.nivedh.bibletracemaps" target="_blank" class="mt-4 text-blue-400 font-semibold hover:underline">View App →</a>
+            </div>
+
+            <!-- App 2: World Atlas -->
+            <div class="glass p-4 rounded-2xl hover:scale-105 transition-transform flex flex-col">
+                <img src="https://play-lh.googleusercontent.com/X1b0p58uUAoBq63wtBj4wmzuWGz75YyIY4T3a5213xzP8rGL-9pF-e-Wulo3mAhhg7_wDS7-rAHmD3_ZKxcj2w=w832-h470-rw" alt="World Atlas" class="rounded-xl w-full h-48 object-cover">
+                <h3 class="mt-4 text-xl font-bold">World Atlas & Info</h3>
+                <p class="text-slate-400 text-sm mt-2 flex-grow">Comprehensive global data repository with detailed country borders.</p>
+                <a href="https://play.google.com/store/apps/details?id=com.nivedhLabs.WorldBordersnCountryInfoApp" target="_blank" class="mt-4 text-blue-400 font-semibold hover:underline">View App →</a>
+            </div>
+
+            <!-- App 3: Bible Journey -->
+            <div class="glass p-4 rounded-2xl hover:scale-105 transition-transform flex flex-col">
+                <img src="https://play-lh.googleusercontent.com/F8znqRAbxgyMIwr00Ql5JLRwM6IYiYUwabQh0Et4feGgckbHhQiX3V8_lzVGNyQHrOvZIXzND-gKe2QH3D_1MQ=w480-h960-rw" alt="Bible Journey" class="rounded-xl w-full h-48 object-cover">
+                <h3 class="mt-4 text-xl font-bold">Bible Journey</h3>
+                <p class="text-slate-400 text-sm mt-2 flex-grow">Engaging educational platform for exploring historical narratives.</p>
+                <a href="https://play.google.com/store/apps/details?id=com.jeevan.biblejourney.myapp" target="_blank" class="mt-4 text-blue-400 font-semibold hover:underline">View App →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Capabilities -->
+    <section class="max-w-6xl mx-auto py-16 px-6 border-t border-slate-800 text-center">
+        <h2 class="text-3xl font-bold mb-12">Core Technical Capabilities</h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+            <div class="bg-slate-900 p-6 rounded-xl border border-slate-800">React.js & Ecosystem</div>
+            <div class="bg-slate-900 p-6 rounded-xl border border-slate-800">Ionic / Capacitor</div>
+            <div class="bg-slate-900 p-6 rounded-xl border border-slate-800">D3.js Visualization</div>
+            <div class="bg-slate-900 p-6 rounded-xl border border-slate-800">AI Agent Development</div>
+        </div>
+    </section>
+
+    <script>
+        let currentIndex = 0;
+        const slides = document.querySelectorAll('.carousel-slide');
+        
+        function changeSlide() {
+            slides[currentIndex].classList.remove('opacity-100');
+            slides[currentIndex].classList.add('opacity-0');
+            
+            currentIndex = (currentIndex + 1) % slides.length;
+            
+            slides[currentIndex].classList.remove('opacity-0');
+            slides[currentIndex].classList.add('opacity-100');
+        }
+        
+        setInterval(changeSlide, 5000); // Change every 5 seconds
+    </script>
+</body>
+</html>
