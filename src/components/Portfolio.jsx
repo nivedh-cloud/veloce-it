@@ -1,18 +1,18 @@
 import React from 'react'
 
 const items = [
-  {
-    title: 'Bible Trace Maps',
-    img: 'https://play-lh.googleusercontent.com/VAmXRb4wBfkQX_I9_Eg_Yhkz86573LQ5G9b75-Vqq_Dn3LBy0yQc8T3q-SCUAvIXhtwPJseda5sarhYeZvDoXw=w832-h470-rw',
-    desc: 'Hybrid mobile app with complex mapping visualizations.',
-    link: 'https://play.google.com/store/apps/details?id=com.nivedh.bibletracemaps'
-  },
-  {
+    {
     title: 'World Atlas & Info',
     img: 'https://play-lh.googleusercontent.com/X1b0p58uUAoBq63wtBj4wmzuWGz75YyIY4T3a5213xzP8rGL-9pF-e-Wulo3mAhhg7_wDS7-rAHmD3_ZKxcj2w=w832-h470-rw',
     desc: 'Comprehensive global data repository with detailed country borders.',
     link: 'https://play.google.com/store/apps/details?id=com.nivedhLabs.WorldBordersnCountryInfoApp'
   },
+  {
+    title: 'Bible Trace Maps',
+    img: 'https://play-lh.googleusercontent.com/VAmXRb4wBfkQX_I9_Eg_Yhkz86573LQ5G9b75-Vqq_Dn3LBy0yQc8T3q-SCUAvIXhtwPJseda5sarhYeZvDoXw=w832-h470-rw',
+    desc: 'Hybrid mobile app with complex mapping visualizations.',
+    link: 'https://play.google.com/store/apps/details?id=com.nivedh.bibletracemaps'
+  },  
   {
     title: 'Bible Journey',
     img: 'https://play-lh.googleusercontent.com/F8znqRAbxgyMIwr00Ql5JLRwM6IYiYUwabQh0Et4feGgckbHhQiX3V8_lzVGNyQHrOvZIXzND-gKe2QH3D_1MQ=w480-h960-rw',
