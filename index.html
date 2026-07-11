@@ -1,83 +1,17 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Veloce IT Solutions | Senior UI/UX & Mobile Engineering</title>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Veloce IT Solutions</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="icon" href="images/Gemini_Generated_Image_bxl7jhbxl7jhbxl7.png" type="image/png">
-    <style>
-        .glass { 
-            background: rgba(30, 41, 59, 0.5); 
-            backdrop-filter: blur(10px); 
-            border: 1px solid rgba(255, 255, 255, 0.1); 
-        }
-        
-        /* Carousel animations */
-        @keyframes slideIn {
-            0% { transform: translateX(100%); opacity: 0; }
-            100% { transform: translateX(0); opacity: 1; }
-        }
-        .animate-slide {
-            animation: slideIn 1s ease-out forwards;
-        }
-    </style>
-</head>
-<body class="bg-slate-950 text-slate-100 font-sans">
-
-    <!-- Hero Section -->
-    <section class="max-w-6xl mx-auto px-6 py-4 sm:py-6 text-left">
-        <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
-            <div>
-                <h1 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold mb-2 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-emerald-400">
-                    Veloce IT
-                </h1>
-                <p class="text-lg sm:text-xl text-slate-400 max-w-1xl">
-                    Expert Software Architecture & Development
-                </p>
-            </div>
-            <a href="https://nivedh-cloud.github.io/my-profile/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center rounded-full border border-blue-400/40 bg-blue-500/10 px-4 py-2 text-sm font-semibold text-blue-300 transition hover:bg-blue-500/20">
-                Developer Profile
-            </a>
-        </div>
-    </section>
-
-    <!-- Carousel Section -->
-    <section class="w-full py-0">
-        <div id="carousel" class="relative w-full h-[50svh] sm:h-[55dvh] lg:h-[60vh] rounded-xl sm:rounded-none overflow-hidden bg-slate-950 ring-1 ring-slate-800/30 sm:ring-0 shadow-sm sm:shadow-none">
-            <!-- Slide 1 -->
-            <div class="carousel-slide absolute inset-0 flex items-end justify-end transition-opacity duration-1000">
-                <img src="images/Gemini_Generated_Image_bxl7jhbxl7jhbxl7.png" alt="Programming" class="absolute left-3 right-3 top-0 bottom-0 sm:left-0 sm:right-0 w-full h-full object-cover opacity-40">
-                <div class="hidden sm:block relative z-10 p-6 sm:p-8 lg:p-10 max-w-2xl text-right">
-                    <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold animate-slide">We provide software solutions</h2>
-                </div>
-            </div>
-            <!-- Slide 2 -->
-            <div class="carousel-slide absolute inset-0 flex items-end justify-end transition-opacity duration-1000 opacity-0">
-                <img src="images/Gemini_Generated_Image_dlgogedlgogedlgo.png" alt="Development" class="absolute left-3 right-3 top-0 bottom-0 sm:left-0 sm:right-0 w-full h-full object-cover opacity-40">
-                <div class="hidden sm:block relative z-10 p-6 sm:p-8 lg:p-10 max-w-2xl text-right">
-                    <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold animate-slide">Building your digital future</h2>
-                </div>
-            </div>
-            <!-- Slide 3 -->
-            <div class="carousel-slide absolute inset-0 flex items-end justify-end transition-opacity duration-1000 opacity-0">
-                <img src="images/Gemini_Generated_Image_mryroomryroomryr.png" alt="Data" class="absolute left-3 right-3 top-0 bottom-0 sm:left-0 sm:right-0 w-full h-full object-cover opacity-40">
-                <div class="hidden sm:block relative z-10 p-6 sm:p-8 lg:p-10 max-w-2xl text-right">
-                    <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold animate-slide">Data-driven architecture</h2>
-                </div>
-            </div>
-            <!-- Slide 4 -->
-            <div class="carousel-slide absolute inset-0 flex items-end justify-end transition-opacity duration-1000 opacity-0">
-                <img src="images/Gemini_Generated_Image_s8rucns8rucns8ru.png" alt="AI" class="absolute left-3 right-3 top-0 bottom-0 sm:left-0 sm:right-0 w-full h-full object-cover opacity-40">
-                <div class="hidden sm:block relative z-10 p-6 sm:p-8 lg:p-10 max-w-2xl text-right">
-                    <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold animate-slide">Advanced AI implementations</h2>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Portfolio Highlights -->
-    <section class="max-w-6xl mx-auto py-5 px-6">
+    <link rel="icon" href="/images/Gemini_Generated_Image_bxl7jhbxl7jhbxl7.png" type="image/png">
+  </head>
+  <body class="bg-slate-950 text-slate-100 font-sans">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
         <h2 class="text-2xl font-bold mb-4 text-center">Portfolio Highlights</h2>
         
         <div class="grid md:grid-cols-3 gap-8">

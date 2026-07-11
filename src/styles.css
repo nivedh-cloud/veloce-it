@@ -1,0 +1,9 @@
+/* Minimal reset + any extra styles used by the components */
+:root{}
+
+/* preserve the glass utility used in components */
+.glass{background: rgba(30,41,59,0.5);backdrop-filter: blur(10px);border:1px solid rgba(255,255,255,0.06)}
+
+/* carousel animation */
+@keyframes slideIn{0%{transform:translateX(100%);opacity:0}100%{transform:translateX(0);opacity:1}}
+.animate-slide{animation:slideIn 1s ease-out forwards}
